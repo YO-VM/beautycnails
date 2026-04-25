@@ -662,7 +662,8 @@ footer {
     transition: all 0.3s ease;
     text-decoration: none;
     padding-top: 10px;
-
+    position: sticky;
+    bottom: 0;
     padding-bottom: env(safe-area-inset-bottom);
 }
 
