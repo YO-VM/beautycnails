@@ -20,12 +20,6 @@ body {
     background-color: #F7F2EA;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-}
-
 h1 {
     color: var(--color2) !important;
     font-family: 'Playfair Display', serif;
@@ -736,6 +730,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
 
     .navbar-logo {
         height: 60px;
