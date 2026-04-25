@@ -743,7 +743,6 @@ footer {
         z-index: 999;
         transition: transform 0.35s ease;
         will-change: transform;
-        background: red !important;
     }
 
     header.hide {
