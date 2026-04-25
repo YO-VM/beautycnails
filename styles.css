@@ -745,12 +745,6 @@ footer {
         will-change: transform;
     }
 
-    .navbar.hide {
-        transform: translateY(-100%);
-    }
-
-
-
     
     .navbar-logo {
         height: 60px;
