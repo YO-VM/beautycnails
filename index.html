@@ -249,33 +249,6 @@
             }
         });
     </script>
-
-                
-
-    <script>
-        let lastScroll = 0;
-        let threshold = 10;
-        const header = document.querySelector(".navbar");
-
-        window.addEventListener("scroll", () => {
-            const currentScroll = window.pageYOffset;
-
-            if (currentScroll <= 0) {
-                header.classList.remove("hide");
-                lastScroll = currentScroll;
-                return;
-            }
-
-            if (currentScroll > lastScroll + threshold) {
-                header.classList.add("hide");
-            }
-            else if (currentScroll < lastScroll - threshold) {
-                header.classList.remove("hide");
-            }
-
-            lastScroll = currentScroll;
-        });
-    </script>
 </body>
 
 </html>
