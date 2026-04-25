@@ -539,6 +539,7 @@ h1 {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
 }
+
 .con-field input:focus,
 .con-field textarea:focus {
     outline: none;
@@ -653,7 +654,6 @@ footer {
     box-shadow: 0px -3px 10px lightgrey;
     position: relative;
     bottom: 0;
-    padding-bottom: env(safe-area-inset-bottom);
 }
 
 .footer-icon {
@@ -726,9 +726,11 @@ footer {
     .navbar-brand {
         font-size: 27px;
     }
+
     .nav-link {
         font-size: 1.10rem;
     }
+
     .navbar-logo {
         height: 60px;
     }
